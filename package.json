@@ -1,0 +1,32 @@
+{
+  "name": "sistem-informasi-sekolah",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Selamat datang di Sistem Informasi Sekolah! 👋</h1>",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix --watch",
+    "watch-poll": "mix --watch --poll",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.1.2",
+    "laravel-mix": "^6.0.6",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}
